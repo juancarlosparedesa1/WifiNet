@@ -68,8 +68,8 @@ a:hover, #header.nav-solid nav a:hover {
 /* Navigation Active State */
 
 #header.nav-solid .active {
-    color: #2d4272;
-    border-color: #2d4272;
+    color: #d2b356;
+    border-color: #d2b356;
 }    
 
 
@@ -122,20 +122,10 @@ a:hover, #header.nav-solid nav a:hover {
 
 
 /* Banner Background and Text Colors */
-#banner {
-    background: url("../images/banner-images/banner-images-1.png") no-repeat center center;
-    background-size: cover;
-    position: relative;
-}
 
-#banner::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 50px;
-    height: 50px;
-   /* background: rgba(0, 0, 0, 0.5); /* Ajusta el último valor (0.5) para más o menos transparencia */
+#banner {
+    background: url("../images/banner-images/banner-image-7.jpg") no-repeat center top;
+    background-size:cover;
 }
 
 
